@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "3361e391-6fc6-4a91-b60f-10a1e2d7f1a5",
+		"name": "DemoMeli",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "isMutant",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"dna\":[\"ATGCGA\",\"CAGTGC\",\"TTATGT\",\"AGAAGG\",\"CCCCTA\",\"TCACTG\"]\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8584/demo/mutant/",
+					"host": [
+						"localhost"
+					],
+					"port": "8584",
+					"path": [
+						"demo",
+						"mutant",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}

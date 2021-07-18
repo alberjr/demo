@@ -1,0 +1,12 @@
+com/example/demo/models/DnaTest.java
+ com.example.demo.models.DnaTest
+com/example/demo/models/input/DnaRequestTest.java
+ com.example.demo.models.input.DnaRequestTest
+com/example/demo/services/MutantServiceTest.java
+ com.example.demo.services.MutantServiceTest
+com/example/demo/controllers/MutantControllerTest.java
+ com.example.demo.controllers.MutantControllerTest
+com/example/demo/DemoApplicationTests.java
+ com.example.demo.DemoApplicationTests
+com/example/demo/models/output/StatMutantTest.java
+ com.example.demo.models.output.StatMutantTest

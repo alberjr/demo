@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.services.MutantServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-07-18T06:03:28" hostname="ALBERBARROS" time="0.201">
+  <properties/>
+  <testcase name="validateIsMutantHoVe()" classname="com.example.demo.services.MutantServiceTest" time="0.181"/>
+  <testcase name="validateStatsOk()" classname="com.example.demo.services.MutantServiceTest" time="0.003"/>
+  <testcase name="validateIsMutantHuman()" classname="com.example.demo.services.MutantServiceTest" time="0.003"/>
+  <testcase name="validateIsMutantDiagSec()" classname="com.example.demo.services.MutantServiceTest" time="0.004"/>
+  <testcase name="validateStatsDiv0()" classname="com.example.demo.services.MutantServiceTest" time="0.003"/>
+  <testcase name="validateIsMutantDiagPrin()" classname="com.example.demo.services.MutantServiceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
