@@ -83,7 +83,7 @@ public class MutantControllerTest {
 		stat.setCountMutantDna(2);
 		stat.setRatio(0.5);
 		when(mutantService.stats()).thenReturn(stat);
-		StatMutant resp=mutantController.stats();
+		StatMutant resp=mutantController.stats().getBody();
 		assertNotNull(resp);
 		assertEquals(stat.getCountHumanDna(),resp.getCountHumanDna());
 		assertEquals(stat.getCountMutantDna(),resp.getCountMutantDna());

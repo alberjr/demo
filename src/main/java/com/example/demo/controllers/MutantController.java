@@ -56,9 +56,14 @@ public class MutantController {
 	 * @return StatMutant
 	 */
 	@GetMapping(value = "/stats")
-	public @ResponseBody StatMutant stats() {
+	public ResponseEntity<StatMutant> stats() {
+		try {
 			StatMutant stats= mutantService.stats();
-			return stats;
+			return new ResponseEntity <StatMutant> (stats,HttpStatus.OK); 
+		} catch (Exception e) {	
+			//Sucedio un error		
+			return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
+		}
 	}
 
 }
